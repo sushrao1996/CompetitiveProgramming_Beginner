@@ -1,0 +1,12 @@
+Sweaters=3
+SweaterCost=68
+CompGame=1
+CompGameCost=75
+Bracelet=2
+BraceletCost=43
+returnedBraceletCount=1
+Rebate=10
+TotalCost=(Sweaters*SweaterCost)+(CompGame*CompGameCost)+(Bracelet*BraceletCost)
+DiscountAndRebate=(returnedBraceletCount*BraceletCost)+Rebate
+FinalCost=TotalCost-DiscountAndRebate
+print(FinalCost)
